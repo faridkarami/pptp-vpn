@@ -1,0 +1,4 @@
+option /etc/ppp/pptpd-options
+logwtmp
+localip @LOCAL_IP
+remoteip @REMOTE_IP

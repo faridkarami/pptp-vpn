@@ -1,0 +1,23 @@
+name pptpd
+
+refuse-pap
+refuse-chap
+refuse-mschap
+
+require-mschap-v2
+require-mppe-128
+
+ms-dns 8.8.8.8
+ms-dns 8.8.4.4
+
+proxyarp
+nodefaultroute
+lock
+nobsdcomp
+
+novj
+novjcomp
+nologfd
+
+mtu 1490
+mru 1490
